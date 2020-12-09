@@ -1,0 +1,835 @@
+*{
+	margin:0px;
+}
+body{
+	background-image:url("slike/p1.jpg");
+	background-repeat:no-repeat;
+	font-family:sans-serif;
+	background-size: cover;
+	height:200%;
+	background-position:center;
+}
+#zaglavlje{
+	width:100%;
+	height:12%;
+	background-color:black;
+	border-bottom:0px solid red;
+	box-shadow: 0px 9px 5px -1px #00ddff;
+	margin-top:0px;
+	padding-top:0px;
+	position:sticky;
+}
+#zaglavlje p{
+	float:left;
+	font-size:45px;
+	color:white;
+	margin-left:5%;
+	padding-top:20px;
+	font-family:'Dancing Script',cursive;
+}
+#zaglavlje p span{
+	color:#00ddff;
+}
+#zaglavlje nav ul li{
+	float:left;
+	margin-right:5px;
+}
+#zaglavlje nav{
+	float:right;
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-right:10px;
+}
+#zaglavlje nav a{
+	font-size:15px;
+	text-decoration:none;
+	padding:10px 5px;
+	color:white;
+	margin:10px 5px;
+}
+#zaglavlje nav a{
+	margin:10px 5px;
+}
+#zaglavlje nav a:hover{
+	border-bottom:2px solid #00ddff;
+}
+#glavni{
+	position:relativ;
+	margin-top:5%;
+	width:100%;
+	padding-bottom:25%;
+}
+#desni{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	background-color:rgb(255,255,255,0.65);
+	box-shadow: 0px 9px 5px -1px #267491;
+	animation-name: animacija;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+	border-radius:7px;
+}
+#desni h2{
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	padding: 40px 40px 10px 40px;
+}
+#desni p{
+	text-align:center;
+	color:#170566;
+	font-size:70px;
+	padding-bottom:20px;
+	font-family:'Dancing Script',cursive;
+}
+#desni h1{
+	text-align:center;
+	font-size:60px;
+	color:black;
+	font-weight: bold;
+	padding-bottom:15px;
+	padding-right:30px;
+	padding-left:30px;
+	opacity:100%;
+}
+.cleaner{
+	clear:both;	
+}
+@keyframes animacija {
+	0% {right:-200px; top:25%;}
+    100% {right:330px; top:25%;}
+}
+#text h1{
+	font-size:55px;
+	text-align:center;
+	color:white;
+	padding-bottom:40px;
+}
+#text p{
+	font-size:20px;
+	text-align:center;
+	color:white;
+	padding-bottom:60px;
+	margin-left:10%;
+	margin-right:10%;
+}
+.margine{
+	margin-bottom:25px;
+	margin-top:25px;
+	margin-left:3.7%;
+	float:left;
+}
+#naruci{
+	width: 100%;
+	height:300px;
+}
+.divslike{
+	width:20%;
+	height:250px;
+}
+#s1{
+	background-image:url("slike/sl2.jpg");
+}
+.slika{
+	width:100%;
+	height:90%;
+	background-position:center;
+	vertical-align:top;
+	border-radius:80px 10px;
+	border:1px solid white;
+	background-repeat:no-repeat;
+}
+.slika:hover{
+	box-shadow: 0px 1px 10px 10px #267491;
+}
+.sredina{
+	text-align:center;
+	color:white;
+	padding-top:10px;
+}
+#s2{
+	background-image:url("slike/p.jpg");
+}
+#s3{
+	background-image:url("slike/s3v1.png");
+}
+#s4{
+	background-image:url("slike/Rad36v1.png");
+}
+#tasteri{
+	width:100%;
+	height:100px;
+	padding-bottom:150px;
+}
+input[type=button]{
+  background-color:#e4e9eb;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius:10px;
+  margin-right:200px;
+}
+#prvib{
+	margin-left:130px;
+}
+#cetvrtib{
+	margin-right:0px;
+}
+#footer1{
+	width:100%;
+	height:300px;
+	background-color:black;
+}
+.inline{
+	float:left;
+	width:30%;
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.border{
+	border-right:0.5px solid grey;
+}
+#prvi{
+	margin-left:5%;
+}
+#footer1 #prvi p{
+	padding-top:20px;
+	margin-left:40px;
+	font-size:30px;
+	text-decoration:underline;
+	color:white;
+	padding-bottom:30px;
+}
+#footer1 #prvi ol li{
+	float:left;
+	margin-right:25px;
+	}
+
+#footer1 #prvi #prva li a i{
+	color:white;
+	padding:12px;
+	border-radius:100%
+}
+#footer1 #prvi #prva li a{
+	border-radius:50%;
+}
+#footer1 #prvi #prva {
+	width:70%;
+	list-style-type:none;
+	margin-left:0px;
+	padding-bottom:0px;
+	margin-bottom:20px;
+	height:70px;
+	border-bottom:1px solid gray;
+}
+#footer1 #druga ol li{
+	float:left;
+	margin-right:25px;
+	}
+
+#footer1 #prvi #druga li a i{
+	color:white;
+	padding:12px;
+	border-radius:100%
+}
+#footer1 #prvi #druga li a{
+	border-radius:50%;
+}
+#footer1 #prvi #druga {
+	list-style-type:none;
+	margin-left:0px;
+	padding-bottom:25px;
+	height:70px;
+}
+.ikonice{
+	padding:12px;
+}
+.manji{
+	color:white;
+	font-size:15px;
+	margin-left:40px;
+	padding-bottom:5px;
+}
+.par{
+	padding-top:20px;
+	margin-left:40px;
+	font-size:30px;
+	text-decoration:underline;
+	color:white;
+	padding-bottom:30px;
+}
+#ocenite{
+	padding-top:20px;
+	margin-left:40px;
+	font-size:30px;
+	text-decoration:underline;
+	color:white;
+	padding-bottom:15px;
+}
+#insta{
+	background-color:#fc0dc4;
+}
+#fb{
+	background-color:blue;
+}
+#sub{
+	background-color:#fc7703;
+}
+#sm{
+	background-color:#ff6f59;
+}
+#tw{
+	background-color:#2dd1d6;
+}
+#yt{
+	background-color:#e80202;
+}
+#footer1 input[type=text]{
+  width: 65%;
+  height:35px;
+  padding-left:5px;
+  margin-left:40px;
+  box-sizing: border-box;
+}
+#itrazi{
+	margin-left:5px;
+	color:white;
+}
+.ocena{
+	margin-right:60px;
+	display:flex;
+	transform: rotateY(180deg);
+}
+.ocena input{
+	display:none;
+}
+.ocena label{
+	display: block;
+	cursor:pointer;
+	width:50px;
+	padding:5px;
+}
+.ocena label:before{
+	position:absolute;
+	content: '\f005';
+	font-family:fontAwesome;
+	display:block;
+	font-size:50px;
+	color: #dce6f5;
+}
+.ocena label:after{
+	content: '\f005';
+	position: relative;
+	font-family: fontAwesome;
+	display:block;
+	font-size:50px;
+	color:#ffec42;
+	top:0;
+	opacity:0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.ocena label:hover:after,
+.ocena label:hover~label:after,
+.ocena input:checked~label:after{
+	opacity:1;
+}
+#cpr{
+	text-align:center;
+	font-size:10px;
+	background-color:black;
+	color:white;
+}
+#sadrzaj{
+	width:100%;
+	height:950px;
+	position:relative;
+	animation-name: animacija3;
+	animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+#sadrzaj2{
+	position:relative;
+	animation-name: animacija3;
+	animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+.sadrzajh1{
+	text-align:center;
+	color:white;
+	font-size:45px;
+	padding-top:20px;
+}
+#ps{
+	position:absolute;
+	padding-left:15px;
+	bottom:15px;
+	width:400px;
+	height:400px;
+	left:930px;
+	top:10px;
+}
+#sadrzajprvip{
+	float:left;
+	padding-left:30px;
+	margin-right:350px;
+}
+#sadrzajcetvrtip{
+	float:left;
+	padding-left:30px;
+	margin-right:350px;
+}
+#sadrzajdrugip{
+	float:right;
+	text-align:right;
+	padding:20px;
+	margin-right:40px;
+	margin-left:350px;
+	margin-top:30px;
+}
+#sadrzajtrecip{
+	float:right;
+	text-align:right;
+	margin-right:50px;
+	margin-left:350px;
+	margin-top:15px
+}
+.sadrzajp{
+	color:white;
+	padding-top:25px;
+	line-height:25px;
+}
+#sadrzaj ol li{
+	color:white;
+	text-align:right;
+}
+#sadrzaj ol{
+	margin-right:50px;
+	float:right;
+	text-align:right;
+	list-style-type:none;
+}
+#rad24{
+	height:350px;
+	width:250px;
+	position:absolute;
+	float:left;
+	right:1050px;
+	top:330px;
+	border-radius:10px;
+}
+#sl1{
+	height:200px;
+	width:300px;
+	position:absolute;
+	border-radius:100%;
+	right:50px;
+	top:700px;
+}
+#alatke{
+	text-align:center;
+	color:white;
+	font-size:45px;
+	padding-top:20px;
+	position:absolute;
+	top:900px;
+	left:550px;
+}
+#sadrzaj2{
+	width:100%;
+	height:800px;
+	margin-top:0px;
+}
+.sadrzaj2p{
+	margin-left:30px;
+	padding:10px;
+	margin-right:100px;
+}
+
+
+
+
+
+
+
+
+#nosac1{
+	width:80%;
+	height:330px;
+	border-radius:10px;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#divslika{
+	position:relative;
+	width:30%;
+	height:100%;
+	float:left;
+	animation-name:animacija1;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
+#divp{
+	position:relative;
+	width:70%;
+	height:100%;
+	float:right;
+	animation-name: animacija2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+#nosac1 #divslika img{
+	float:left;
+	padding:10px;
+	width:90%;
+	height:90%;
+	border-radius: 15%;
+	box-shadow:-10px -10px 5px -9px #209ef7;
+}
+#nosac1 #divp p{
+	text-align:right;
+	padding-top:5px;
+	padding-right:15px;
+	padding-bottom:10px;
+	color:white;
+	margin-left:20px;
+	font-size:30px;
+	border-radius:15px;
+	box-shadow:5px 5px 5px -3px #b3160b;
+}
+#nosac1 span{
+	color:#57fcff;
+	font-family:'Dancing Script',cursive;
+}
+@keyframes animacija1{
+	0% {left:-200px; top:25%;}
+    100% {left:20px; top:25%;}
+}
+@keyframes animacija2{
+	0% {right:-200px; top:25%;}
+    100% {right:-5px; top:25%;}
+}
+#nosac2{
+	width:80%;
+	height:800px;
+	margin-top:200px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(0,0,0,0.65);
+	border-radius:15px;
+}
+#nosac2 h1{
+	font-family:'Dancing Script',cursive;
+	padding-bottom:30px;
+}
+#gore{
+	width:80%;
+	margin-left:10%;
+	height:250px;
+	padding-bottom:20px;
+}
+#dole
+{
+	width:80%;
+	margin-left:10%;
+	height:250px;
+	padding-bottom:20px;
+}
+.slicice{
+	height:100%;
+	width:25%;
+	float:left;
+	filter: blurr(2px);
+}
+.slicice:hover{
+	filter: blur(0px);
+}
+.mr{
+	margin-right:12.5%;
+}
+.marquee {
+    height: 50px;
+    overflow: hidden;
+	margin-top:50px;
+    position: relative;
+    color: #333;
+    border-top: 1px solid #4a4a4a;
+	border-bottom: 1px solid #4a4a4a;
+}  
+.marquee p {
+    position: absolute;
+	color:white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 20s linear infinite;
+}
+@-moz-keyframes scroll-left {
+	0% {-moz-transform: translateX(100%);}
+    100% {-moz-transform: translateX(-100%);}
+}
+        
+@-webkit-keyframes scroll-left {
+    0% {-webkit-transform: translateX(100%);}
+    100% {-webkit-transform: translateX(-100%);}
+}
+        
+@keyframes scroll-left {
+    0% {-moz-transform: translateX(100%);-webkit-transform: translateX(100%);transform: translateX(100%);}
+    100% {-moz-transform: translateX(-100%);-webkit-transform: translateX(-100%);transform: translateX(-100%);}
+}
+.container{
+	width:80%;
+	height:600px;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(0,0,0,0.65);
+	border-radius:15px;
+	animation-name: animacija3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+	margin-bottom:50px;
+	
+}
+.container h1{
+	font-family:'Dancing Script',cursive;
+	padding-bottom:30px;
+}
+#gore1{
+	width:90%;
+	height:250px;
+	padding-bottom:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#dole1{
+	width:90%;
+	height:40%;
+	padding-bottom:10%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.slicice1{
+	width:40%;
+	height:200px;
+	border-radius: 26% 74% 74% 26% / 49% 52% 48% 51%;
+	transition: transform .9s;
+}
+#levaslika{
+	float:left;
+}
+#desnaslika{
+	float:right;
+}
+.slicice1:hover{
+	box-shadow: 0px 1px 10px 10px #625a8a;
+	transform: scale(1.1);
+	transform-origin: 50% 50%;
+}
+#centralna{
+	margin-left:30%;
+}
+.cntp{
+	color:white;
+	font-size:30px;
+	animation-name: animacija3;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+#cntp1{
+	position:absolute;
+	top:300px;
+	left:230px;
+}
+#cntp2{
+	position:absolute;
+	top:300px;
+	right:400px;
+}
+#cntp3{
+	position:absolute;
+	top:500px;
+	left:520px;
+}
+@keyframes animacija3{
+	from{opacity:0%;}
+	to{opacity:100%;}
+}
+#c2{
+	height:1000px;
+}
+.ml{
+	margin-left:12.5%;
+}
+.visina{
+	height:200px;
+}
+.paddingbottom{
+	padding-bottom:35px;
+}
+.blur{
+	filter:blur(0px);
+}
+.zoom{
+	transition: transform .2s;
+}
+.zoom:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 1px 10px 10px #625a8a;
+}
+.poravnat{
+	text-align:center;
+	color:white;
+	font-size:20px;
+}
+section{
+	width:80%;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+section p{
+	margin-top:3px;
+}
+label{
+	color:white;
+	padding-bottom:15px;
+}
+.container section #levia input[type=text]{
+	margin-bottom:20px;
+	margin-top:10px;
+	margin-left:0px;
+	width:300px;
+	height:30px;
+	border-radius:15px;
+}
+.container section #levia input[type=tel]{
+	margin-bottom:20px;
+	margin-top:10px;
+	margin-left:0px;
+	width:300px;
+	height:30px;
+	border-radius:15px;
+}
+.container section #levia input[type=email]{
+	margin-bottom:20px;
+	margin-top:10px;
+	margin-left:0px;
+	width:300px;
+	height:30px;
+	border-radius:15px;
+}
+.container section #levia button{
+	border-radius:10px;
+	width:80px;
+}
+input[type=checkbox]{
+	width:20px;
+	height:20px;
+}
+#levia{
+	float:left;
+	width:50%;
+}
+form{
+	position:relative;
+	animation-name: animacija7;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+textarea{
+	border-radius:15px;
+	margin-bottom:15px;
+}
+#zahtev{
+	margin-bottom:20px;
+}
+#desnia{
+	float:right;
+	width:50%;
+}
+#desnia  img{
+	float:right;
+	border-radius:15px;
+	animation-name: animacija6;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+	position:relative;
+}
+#desnia  p{
+	font-size:60px;
+	margin-top:60px;
+	color:white;
+	font-family:'Dancing Script',cursive;
+	float:right;
+	transform: skewY(10deg);
+}
+section #desnia span{
+	animation-name: animacija3;
+    animation-fill-mode: forwards;
+}
+#sp1{
+	color:#00ddff;
+	animation-duration: 0.5s;
+}
+#sp2{
+	animation-duration: 1.5s;
+}
+#sp3{
+	animation-duration: 2.5s;
+}
+#sp4{
+	animation-duration: 3.5s;
+}
+#sp5{
+	color:#00ddff;
+	animation-duration: 4.5s;
+}
+#sp6{
+	animation-duration: 5.5s;
+}
+#sp7{
+	animation-duration: 6.5s;
+}
+#sp8{
+	animation-duration: 7.5s;
+}
+#sp9{
+	animation-duration: 8.5s;
+}
+#sp10{
+	animation-duration: 9.5s;
+}
+#sp11{
+	animation-duration: 10.5s;
+}
+#sp12{
+	animation-duration: 11.5s;
+}
+#sp13{
+	animation-duration: 12.5s;
+}
+
+@keyframes animacija7{
+	0% {left:-400px; top:25%;}
+	100%{left:0px; top:25%;}
+}
+@keyframes animacija6{
+	0% {right:-400px; top:25%; opacity:0%;}
+	100%{right:0px; top:25%; opacity:100%;}
+}
