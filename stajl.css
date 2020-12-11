@@ -64,7 +64,7 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	position:absolute;
-	background-color:rgb(255,255,255,0.65);
+	background-color:rgba(0,0,0,0.45);
 	box-shadow: 0px 9px 5px -1px #267491;
 	animation-name: animacija;
     animation-duration: 2s;
@@ -73,13 +73,13 @@ body{
 }
 #desni h2{
 	text-align:center;
-	color:black;
+	color:white;
 	font-weight:bold;
 	padding: 40px 40px 10px 40px;
 }
 #desni p{
 	text-align:center;
-	color:#170566;
+	color:#00ddff;
 	font-size:70px;
 	padding-bottom:20px;
 	font-family:'Dancing Script',cursive;
@@ -87,7 +87,7 @@ body{
 #desni h1{
 	text-align:center;
 	font-size:60px;
-	color:black;
+	color:white;
 	font-weight: bold;
 	padding-bottom:15px;
 	padding-right:30px;
@@ -117,9 +117,8 @@ body{
 }
 .margine{
 	margin-bottom:25px;
+	height:250px;
 	margin-top:25px;
-	margin-left:3.7%;
-	float:left;
 }
 #naruci{
 	width: 100%;
@@ -127,7 +126,10 @@ body{
 }
 .divslike{
 	width:20%;
-	height:250px;
+	margin-bottom:25px;
+	margin-top:25px;
+	float:left;
+	margin-left:4%;
 }
 #s1{
 	background-image:url("slike/sl2.jpg");
@@ -163,6 +165,18 @@ body{
 	height:100px;
 	padding-bottom:150px;
 }
+.divslike input[type=button]{
+  background-color:#e4e9eb;
+  color: black;
+  width:50%;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius:10px;
+  margin-left:25%;
+  margin-right:25%;
+  border:1px solid white;
+}
 input[type=button]{
   background-color:#e4e9eb;
   border: none;
@@ -172,12 +186,6 @@ input[type=button]{
   cursor: pointer;
   border-radius:10px;
   margin-right:200px;
-}
-#prvib{
-	margin-left:130px;
-}
-#cetvrtib{
-	margin-right:0px;
 }
 #footer1{
 	width:100%;
@@ -546,7 +554,9 @@ input[type=button]{
 	height:100%;
 	width:25%;
 	float:left;
-	filter: blurr(2px);
+}
+.blur{
+	filter: blur(2px);
 }
 .slicice:hover{
 	filter: blur(0px);
@@ -681,9 +691,6 @@ input[type=button]{
 }
 .paddingbottom{
 	padding-bottom:35px;
-}
-.blur{
-	filter:blur(0px);
 }
 .zoom{
 	transition: transform .2s;

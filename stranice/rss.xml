@@ -1,0 +1,25 @@
+<rss version="2.0">
+	<channel>
+		<title>DžoniPhotoshop</title>
+		<link/>
+		<description>Više od umetnosti</description>
+		<item>
+			<title>Kontakt</title>
+			<link/>
+			<description>Postavljena je forma kojom nam možete pisati.</description>
+			<language>srb</language>
+		</item>
+		<item>
+			<title>Edit</title>
+			<link/>
+			<description>Dodata je nova slika u galeriji "Foto edit".</description>
+			<language>srb</language>
+		</item>
+		<item>
+			<title>Twitter</title>
+			<link/>
+			<description>Dodat je link ka našoj društvenoj mreži Twitter.</description>
+			<language>srb</language>
+		</item>
+	</channel>
+</rss>
