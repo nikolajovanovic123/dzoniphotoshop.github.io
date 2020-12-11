@@ -61,14 +61,15 @@ body{
 }
 #desni{
 	width:50%;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:25%;
+	margin-right:25%;
 	position:absolute;
 	background-color:rgba(0,0,0,0.45);
 	box-shadow: 0px 9px 5px -1px #267491;
 	animation-name: animacija;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
+	border:1px solid rgba(0,0,0,0.45);
 	border-radius:7px;
 }
 #desni h2{
@@ -98,8 +99,8 @@ body{
 	clear:both;	
 }
 @keyframes animacija {
-	0% {right:-200px; top:25%;}
-    100% {right:330px; top:25%;}
+	0% {right:-400px; top:25%;}
+    100% {right:0px; top:25%;}
 }
 #text h1{
 	font-size:55px;
@@ -757,7 +758,7 @@ input[type=checkbox]{
 form{
 	position:relative;
 	animation-name: animacija7;
-    animation-duration: 4s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
 textarea{
@@ -775,7 +776,7 @@ textarea{
 	float:right;
 	border-radius:15px;
 	animation-name: animacija6;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 	position:relative;
 }
