@@ -7,36 +7,43 @@
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/index.html</loc>
   <lastmod>2020-12-11T15:54:37+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>9.95</priority>
 </url>
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/stranice/galerija.html</loc>
   <lastmod>2020-12-11T15:54:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/stranice/oautoru.html</loc>
   <lastmod>2020-12-11T15:54:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/stranice/kontakt.html</loc>
   <lastmod>2020-12-11T15:54:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/stranice/edit.html</loc>
   <lastmod>2020-12-11T15:54:38+00:00</lastmod>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/stranice/posteri.html</loc>
   <lastmod>2020-12-11T15:54:38+00:00</lastmod>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://nikolajovanovic123.github.io/dzoniphotoshop.github.io/stranice/funnyart.html</loc>
   <lastmod>2020-12-11T15:54:38+00:00</lastmod>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
 </urlset>
